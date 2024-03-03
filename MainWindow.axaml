@@ -1,0 +1,146 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="600" d:DesignHeight="400"
+        x:Class="DZ2.MainWindow"
+        Title="DZ2">
+	<Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="0.1*" />
+            <ColumnDefinition Width="2*" />
+        </Grid.ColumnDefinitions>
+
+		<StackPanel x:Name="ButtonStackPanel" Grid.Column="0" Orientation="Vertical">
+			
+			<Button Content="Khaki" HorizontalAlignment="Stretch">
+				<Button.BorderBrush>
+					<SolidColorBrush Color="Black"/>
+				</Button.BorderBrush>
+				<Button.BorderThickness>
+					<Thickness>2</Thickness>
+				</Button.BorderThickness>
+				<Button.Background>
+					<SolidColorBrush Color="Khaki"/>
+				</Button.Background>
+			</Button>
+			
+			<Button Content="Red" HorizontalAlignment="Stretch">
+				<Button.BorderBrush>
+					<SolidColorBrush Color="Black"/>
+				</Button.BorderBrush>
+				<Button.BorderThickness>
+					<Thickness>2</Thickness>
+				</Button.BorderThickness>
+				<Button.Background>
+					<SolidColorBrush Color="Red"/>
+				</Button.Background>
+			</Button>
+			
+			<Button Content="MediumVioletRed" HorizontalAlignment="Stretch">
+				<Button.BorderBrush>
+					<SolidColorBrush Color="Black"/>
+				</Button.BorderBrush>
+				<Button.BorderThickness>
+					<Thickness>2</Thickness>
+				</Button.BorderThickness>
+				<Button.Background>
+					<SolidColorBrush Color="MediumVioletRed"/>
+				</Button.Background>
+			</Button>
+			
+			<Button Content="Bisque" HorizontalAlignment="Stretch">
+				<Button.BorderBrush>
+					<SolidColorBrush Color="Black"/>
+				</Button.BorderBrush>
+				<Button.BorderThickness>
+					<Thickness>2</Thickness>
+				</Button.BorderThickness>
+				<Button.Background>
+					<SolidColorBrush Color="Bisque"/>
+				</Button.Background>
+			</Button>
+			
+			<Button Content="LemonChiffon" HorizontalAlignment="Stretch">
+				<Button.BorderBrush>
+					<SolidColorBrush Color="Black"/>
+				</Button.BorderBrush>
+				<Button.BorderThickness>
+					<Thickness>2</Thickness>
+				</Button.BorderThickness>
+				<Button.Background>
+					<SolidColorBrush Color="LemonChiffon"/>
+				</Button.Background>
+			</Button>
+			
+			<Button Content="PowderBlue" HorizontalAlignment="Stretch">
+				<Button.BorderBrush>
+					<SolidColorBrush Color="Black"/>
+				</Button.BorderBrush>
+				<Button.BorderThickness>
+					<Thickness>2</Thickness>
+				</Button.BorderThickness>
+				<Button.Background>
+					<SolidColorBrush Color="PowderBlue"/>
+				</Button.Background>
+			</Button>
+			
+			<Button Content="MintCream" HorizontalAlignment="Stretch">
+				<Button.BorderBrush>
+					<SolidColorBrush Color="Black"/>
+				</Button.BorderBrush>
+				<Button.BorderThickness>
+					<Thickness>2</Thickness>
+				</Button.BorderThickness>
+				<Button.Background>
+					<SolidColorBrush Color="MintCream"/>
+				</Button.Background>
+			</Button>
+			
+			<Button Content="Maroon" HorizontalAlignment="Stretch">
+				<Button.BorderBrush>
+					<SolidColorBrush Color="Black"/>
+				</Button.BorderBrush>
+				<Button.BorderThickness>
+					<Thickness>2</Thickness>
+				</Button.BorderThickness>
+				<Button.Background>
+					<SolidColorBrush Color="Maroon"/>
+				</Button.Background>
+			</Button>
+			
+			<Button Content="RosyBrown" HorizontalAlignment="Stretch">
+				<Button.BorderBrush>
+					<SolidColorBrush Color="Black"/>
+				</Button.BorderBrush>
+				<Button.BorderThickness>
+					<Thickness>2</Thickness>
+				</Button.BorderThickness>
+				<Button.Background>
+					<SolidColorBrush Color="RosyBrown"/>
+				</Button.Background>
+			</Button>
+			
+			<Button Content="LightPink" HorizontalAlignment="Stretch">
+				<Button.BorderBrush>
+					<SolidColorBrush Color="Black"/>
+				</Button.BorderBrush>
+				<Button.BorderThickness>
+					<Thickness>2</Thickness>
+				</Button.BorderThickness>
+				<Button.Background>
+					<SolidColorBrush Color="LightPink"/>
+				</Button.Background>
+			</Button>
+
+		</StackPanel>
+
+        <GridSplitter Grid.Column="1" Background="Black" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"/>
+
+        <Rectangle x:Name="ColorRectangle" Grid.Column="2" Fill="Khaki" />
+    </Grid>
+</Window>
+
+
+
