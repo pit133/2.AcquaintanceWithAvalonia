@@ -94,8 +94,6 @@
 					BorderBrush="Black"
 					BorderThickness="2"
 					Background="LightPink"/>
-				
-
 		</StackPanel>
 
         <GridSplitter Grid.Column="1" Background="Black" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"/>

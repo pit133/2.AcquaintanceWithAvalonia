@@ -19,21 +19,12 @@ namespace DZ2
         private void InitializeComponent()
         {
             AvaloniaXamlLoader.Load(this);
-
-            
-
-            //var rectangle = this.FindControl<Avalonia.Controls.Shapes.Rectangle>("ColorRectangle");
-
-            //var button = this.FindControl<Button>("buttonKhaki");
-            //buttonKhaki.Click += ButtonKhaki_Click;
-
         }
 
         private void Button_Click(object? sender, RoutedEventArgs e)
         {
             if (sender is Button button)
             {
-                // Получаем имя кнопки
                 string buttonName = button.Name;
                 FillRectangle(buttonName);
             }
@@ -53,6 +44,5 @@ namespace DZ2
             }
         }
 
-        
     }
 }
