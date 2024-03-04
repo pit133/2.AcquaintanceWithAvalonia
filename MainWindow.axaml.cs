@@ -13,7 +13,6 @@ namespace DZ2
         public MainWindow()
         {
             InitializeComponent();
-
         }
 
         private void InitializeComponent()
